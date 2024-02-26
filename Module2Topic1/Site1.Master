@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Module2Topic1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Exercise 5</title>
+</head>
+<body>
+    <header>
+        <h1>IT114LM2T1-Introduction-to-Web-Forms</h1>
+    </header>
+    <nav>
+        <h3>Navigate to these Exercises</h3>
+        <ul>
+            <li><a href="Exercise1.aspx">Go to Exercise 1</a></li>
+            <li><a href="Exercise2.aspx">Go to Exercise 2</a></li>
+            <li> <a href="Exercise3.aspx">Go to Exercise 3</a></li>
+            <li><a href="Exercise4.aspx">Go to Exercise 4</a></li>
+        </ul>
+    </nav>
+    <asp:ContentPlaceHolder id="MainContent" runat="server"></asp:ContentPlaceHolder>
+    <footer>
+        <p>© Copyright leiraaa13 <%=DateTime.Now.Year.ToString() %></p>
+    </footer>
+</body>
+</html>

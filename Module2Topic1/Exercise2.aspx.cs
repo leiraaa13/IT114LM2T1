@@ -13,5 +13,14 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        protected void btnsave_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
